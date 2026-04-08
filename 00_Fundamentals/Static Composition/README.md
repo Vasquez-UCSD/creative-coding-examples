@@ -1,12 +1,12 @@
-Static Composition - Processing (Python Mode) 
-Difficulty Level 1
+# Static Composition - Processing (Python Mode) 
+### Difficulty Level 1
 
 ![Python](https://img.shields.io/badge/Processing-Python%20Mode-blue)
 ![Python](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![Python](https://img.shields.io/badge/License-Educational-lightgrey)
 ![Python](https://img.shields.io/badge/Made%20With-Creative%20Coding-orange)
 
-📌 Overview
+### 📌 Overview
 Static_Composition is a simple visual sketch written in Processing (Python Mode).
 It generates a static 2D composition using basic geometric shapes and color.
 
@@ -16,29 +16,29 @@ This project is intended as an introductory exercise in:
 - Visual balance
 - The setup() function in Processing
 
-🖼 Screenshot
+### 🖼 Screenshot
 
 ![Alt Text](assets/scss.png)
 
 
-Description:
+### Description:
 - 400 × 400 pixel canvas
 - Light gray background
 - A horizontally centered rectangle spanning the full width of the canvas
 
 
-🛠 Requirements
+### 🛠 Requirements
 - Processing (latest version recommended)
 - Python Mode enabled in Processing
 
-Installation
+### Installation
 1. Download Processing:
  👉 https://processing.org/download
 2. Open Processing
 3. Select Python Mode from the mode selector (top‑right corner)
 
 
-▶️ How to Run
+### ▶️ How to Run
 1. Open Processing
 2. Switch to Python Mode
 3. Open Static_Composition.py
@@ -46,7 +46,7 @@ Installation
 
 The sketch will render instantly and remain static.
 
-📂 Project Structure
+### 📂 Project Structure
 ```
 .
 ├── Static_Composition.py
@@ -58,7 +58,7 @@ The sketch will render instantly and remain static.
     └── scss.png
 ```
 
-🧠 Code Explanation
+### 🧠 Code Explanation
 ```python
 def setup():
     size(400, 400)
@@ -67,7 +67,7 @@ def setup():
     rect(0, 100, 400, 200)
 ```
 
-Key Concepts
+### Key Concepts
 - setup() 
 Runs once when the program starts.
 
@@ -85,20 +85,20 @@ Draws a rectangle across the center of the canvas using:
   - height
 
 
-🎯 Learning Objectives
+### 🎯 Learning Objectives
 - Understand Processing’s coordinate system
 - Draw basic shapes
 - Build visually balanced compositions
 - Write clean, minimal creative‑coding sketches
 
 
-✨ Ideas for Extension
+### ✨ Ideas for Extension
 - Add additional shapes for complexity
 - Introduce color using fill() and stroke()
 - Animate the rectangle using draw()
 - Turn this into a generative composition
 
 
-👤 Author / Context 
+### 👤 Author / Context 
 
 Created as part of an introductory creative coding or digital art assignment, focusing on foundational Processing concepts.
