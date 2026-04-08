@@ -40,7 +40,7 @@ The result is a simple but clear example of how code can create patterns and vis
 ### ▶️ How to Run
 1. Open Processing
 2. Set mode to Python
-3. Open Repetition_Simple_For-Loop_Diff_4.py
+3. Open Repetition_Simple_For_Loop.py
 4. Click Run ▶
 
 The pattern is drawn once and remains static.
