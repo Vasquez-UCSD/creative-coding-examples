@@ -45,17 +45,20 @@ Move your mouse horizontally across the canvas to see the interaction
 
 
 📂 Project Structure
+```
 .
 ├── Dynamic_Background_Diff_1.py
 ├── README.md
 └── assets
     └── screenshot.png
+```
 
 🧠 Code Breakdown
-`def draw():
+```python
+def draw():
     # Background in draw "clears" the screen every frame
-    background(mouse_x / 2, 100, 200)`
-
+    background(mouse_x / 2, 100, 200)
+```
 
 draw()
 Runs continuously (approximately 60 frames per second).
