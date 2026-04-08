@@ -164,5 +164,7 @@ This body of work is suitable for:
 
 ### ✨ Author
 Travis Vasquez
+
 Instructor, UCSD
+
 Technical Designer/ Creative Coding / Visual Art
