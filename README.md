@@ -41,7 +41,7 @@ Each sketch is self‑contained and documented individually, but conceptually gr
 
 
 ### 📘 Conceptual Progression
-#### 1. ️⃣ Foundations: Form, Composition, and Repetition
+#### :one: ️Foundations: Form, Composition, and Repetition
 Early sketches establish basic visual language and structure:
 - Static compositions
 - Shape placement and contrast
@@ -50,7 +50,7 @@ Early sketches establish basic visual language and structure:
 
 Key concepts: coordinate systems, repetition, visual balance
 
-#### 2. ️⃣ Interaction & State
+#### :two: Interaction & State
 User input and real‑time change are introduced:
 - Mouse‑driven visuals
 - Conditional logic
@@ -59,7 +59,7 @@ User input and real‑time change are introduced:
 
 Key concepts: interaction, setup() vs draw(), program state
 
-#### 3. ️⃣ Motion, Noise & Time
+#### :three: Motion, Noise & Time
 Movement becomes smoother and more organic:
 - Linear motion and boundaries
 - Perlin noise for natural variation
@@ -68,7 +68,7 @@ Movement becomes smoother and more organic:
 
 Key concepts: noise, sine/cosine, smooth animation
 
-#### 4. ️⃣ Abstraction & Systems Thinking
+#### :four: Abstraction & Systems Thinking
 Code begins to scale:
 - Custom functions
 - Nested loops
@@ -77,7 +77,7 @@ Code begins to scale:
 
 Key concepts: abstraction, modularity, code reuse
 
-#### 5. ️⃣ Objects, Particles & Physics
+#### :five: Objects, Particles & Physics
 Behavior becomes object‑based:
 - Classes and lists
 - Particle systems
@@ -86,7 +86,7 @@ Behavior becomes object‑based:
 
 Key concepts: object‑oriented programming, physics modeling
 
-#### 6. ️⃣ Data, Images & Pixels
+#### :six: Data, Images & Pixels
 The screen is treated as data:
 - Image sampling
 - Pixel array manipulation
@@ -94,7 +94,7 @@ The screen is treated as data:
 
 Key concepts: low‑level graphics, data‑driven visuals
 
-#### 7. ️⃣ Recursion & Emergence
+#### :seven: Recursion & Emergence
 Complex form emerges from simple rules:
 - Recursive fractals
 - Self‑similar systems
@@ -102,7 +102,7 @@ Complex form emerges from simple rules:
 
 Key concepts: recursion, fractals, emergent complexity
 
-#### 8. ️⃣ 3D Worlds & Navigation
+#### :eight: 3D Worlds & Navigation
 Flat sketches become spatial environments:
 - Procedural 3D terrain
 - Camera systems and follow cams
@@ -111,7 +111,7 @@ Flat sketches become spatial environments:
 
 Key concepts: 3D space, camera logic, world consistency
 
-#### 9. ️⃣ Tools for Projection & Installation
+#### :nine: Tools for Projection & Installation
 The focus shifts from artworks to utilities:
 - Manual keystone calibration
 - Architectural masking systems
@@ -119,7 +119,7 @@ The focus shifts from artworks to utilities:
 
 Key concepts: tool‑building, installation workflows
 
-#### 9. ️⃣ Project Systems: Responsive Environments
+#### :ten: Project Systems: Responsive Environments
 The final works integrate multiple systems simultaneously:
 - Acoustic Brutalism: sound‑driven geometry
 - Dynamic Terrain Navigation: agents interacting with procedural worlds
