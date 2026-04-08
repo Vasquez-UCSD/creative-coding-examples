@@ -84,4 +84,5 @@ Ensure smooth, readable color variation.
 
 
 👤 Author / Context
+
 Created as part of an introductory creative coding / digital art assignment, focusing on interactivity, animation, and user input in Processing.
