@@ -52,9 +52,9 @@ Move your mouse horizontally across the canvas to see the interaction
     └── screenshot.png
 
 🧠 Code Breakdown
-```def draw():
-    # Background in draw "clears" the screen every frame
-    background(mouse_x / 2, 100, 200)```
+`def draw():
+    `# Background in draw "clears" the screen every frame
+    `background(mouse_x / 2, 100, 200)
 
 
 draw()
