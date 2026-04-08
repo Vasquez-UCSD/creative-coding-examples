@@ -13,7 +13,7 @@ This sketch introduces foundational animation and interaction concepts in creati
 
 🖼 Screenshot
 
-  assets/dbss.png
+![Alt Text](assets/dbss.png)
 
 Description:
 - The background color changes continuously
