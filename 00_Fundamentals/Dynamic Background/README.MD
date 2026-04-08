@@ -1,5 +1,6 @@
 Dynamic Background — Processing (Python Mode)
 Difficulty Level 1
+
 https://img.shields.io/badge/Processing-Python%20Mode-blue
 https://img.shields.io/badge/Interaction-Mouse%20Input-purple
 https://img.shields.io/badge/Status-Complete-brightgreen
