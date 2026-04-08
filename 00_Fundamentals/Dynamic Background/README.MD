@@ -2,9 +2,9 @@ Dynamic Background — Processing (Python Mode)
 Difficulty Level 1
 
 ![Python](https://img.shields.io/badge/Processing-Python%20Mode-blue)
-![Python]https://img.shields.io/badge/Interaction-Mouse%20Input-purple)
-![Python]https://img.shields.io/badge/Status-Complete-brightgreen)
-![Python]https://img.shields.io/badge/Type-Dynamic%20Sketch-orange)
+![Python](https://img.shields.io/badge/Interaction-Mouse%20Input-purple)
+![Python](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Python](https://img.shields.io/badge/Type-Dynamic%20Sketch-orange)
 
 📌 Overview
 Dynamic Background is a simple interactive sketch written in Processing (Python Mode).
@@ -52,9 +52,9 @@ Move your mouse horizontally across the canvas to see the interaction
     └── screenshot.png
 
 🧠 Code Breakdown
-def draw():
+```def draw():
     # Background in draw "clears" the screen every frame
-    background(mouse_x / 2, 100, 200)
+    background(mouse_x / 2, 100, 200)```
 
 
 draw()
