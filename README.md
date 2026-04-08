@@ -41,6 +41,7 @@ Each sketch is self‑contained and documented individually, but conceptually gr
 
 
 ### 📘 Conceptual Progression
+
 #### :one: ️Foundations: Form, Composition, and Repetition
 Early sketches establish basic visual language and structure:
 - Static compositions
@@ -49,6 +50,7 @@ Early sketches establish basic visual language and structure:
 - Simple random systems
 
 Key concepts: coordinate systems, repetition, visual balance
+
 
 #### :two: Interaction & State
 User input and real‑time change are introduced:
@@ -59,6 +61,7 @@ User input and real‑time change are introduced:
 
 Key concepts: interaction, setup() vs draw(), program state
 
+
 #### :three: Motion, Noise & Time
 Movement becomes smoother and more organic:
 - Linear motion and boundaries
@@ -67,6 +70,7 @@ Movement becomes smoother and more organic:
 - Time‑based systems
 
 Key concepts: noise, sine/cosine, smooth animation
+
 
 #### :four: Abstraction & Systems Thinking
 Code begins to scale:
@@ -77,6 +81,7 @@ Code begins to scale:
 
 Key concepts: abstraction, modularity, code reuse
 
+
 #### :five: Objects, Particles & Physics
 Behavior becomes object‑based:
 - Classes and lists
@@ -86,6 +91,7 @@ Behavior becomes object‑based:
 
 Key concepts: object‑oriented programming, physics modeling
 
+
 #### :six: Data, Images & Pixels
 The screen is treated as data:
 - Image sampling
@@ -94,6 +100,7 @@ The screen is treated as data:
 
 Key concepts: low‑level graphics, data‑driven visuals
 
+
 #### :seven: Recursion & Emergence
 Complex form emerges from simple rules:
 - Recursive fractals
@@ -101,6 +108,7 @@ Complex form emerges from simple rules:
 - Hierarchical transformations
 
 Key concepts: recursion, fractals, emergent complexity
+
 
 #### :eight: 3D Worlds & Navigation
 Flat sketches become spatial environments:
@@ -111,6 +119,7 @@ Flat sketches become spatial environments:
 
 Key concepts: 3D space, camera logic, world consistency
 
+
 #### :nine: Tools for Projection & Installation
 The focus shifts from artworks to utilities:
 - Manual keystone calibration
@@ -119,7 +128,8 @@ The focus shifts from artworks to utilities:
 
 Key concepts: tool‑building, installation workflows
 
-#### :ten: Project Systems: Responsive Environments
+
+#### :keycap_ten: Project Systems: Responsive Environments
 The final works integrate multiple systems simultaneously:
 - Acoustic Brutalism: sound‑driven geometry
 - Dynamic Terrain Navigation: agents interacting with procedural worlds
