@@ -171,5 +171,6 @@ If something feels confusing:
 
 ---
 
-*Created by Travis Vasquez*  
+*Created by Travis Vasquez*
+*Technical Designer*
 *Creative Coding & Digital Art*
