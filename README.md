@@ -29,7 +29,15 @@ Responsive systems driven by real‑world input
 
 🗂 Project Structure
 Each sketch is self‑contained and documented individually, but conceptually grouped by difficulty and topic.
-Plain Text.├── Fundamentals├── Interaction & Motion├── Systems & Abstraction├── Noise, Recursion, & Emergence├── Particles, Physics, & Agents├── Image, Pixel, & Data Systems├── 3D Worlds & Navigation├── Projection & Installation Tools└── Capstone Systems``Show more lines
+├── Fundamentals
+├── Interaction & Motion
+├── Systems & Abstraction
+├── Noise, Recursion, & Emergence
+├── Particles, Physics, & Agents
+├── Image, Pixel, & Data Systems
+├── 3D Worlds & Navigation
+├── Projection & Installation Tools
+└── Capstone Systems
 
 📘 Conceptual Progression
 1️⃣ Foundations: Form, Composition, and Repetition
