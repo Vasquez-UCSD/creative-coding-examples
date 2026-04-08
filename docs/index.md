@@ -173,4 +173,3 @@ If something feels confusing:
 
 *Created by Travis Vasquez*  
 *Creative Coding & Digital Art*
-``
