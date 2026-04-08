@@ -26,18 +26,18 @@ Description:
 - Python Mode enabled in Processing
 
 Installation
-* 1 Download Processing:
+* 1. Download Processing:
 👉 https://processing.org/download
-* 2 Open Processing
-* 3 Switch to Python Mode using the mode selector
+* 2. Open Processing
+* 3. Switch to Python Mode using the mode selector
 
 
 ▶️ How to Run
-* 1 Open Processing
-* 2 Set mode to Python
-* 3 Open Dynamic_Background.py
-* 4 Click Run ▶
-* 5 Move your mouse horizontally across the canvas to see the interaction
+* 1. Open Processing
+* 2. Set mode to Python
+* 3. Open Dynamic_Background.py
+* 4. Click Run ▶
+* 5. Move your mouse horizontally across the canvas to see the interaction
 
 
 📂 Project Structure
