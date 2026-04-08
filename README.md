@@ -29,6 +29,8 @@ The collection explores several recurring themes:
 
 ### 🗂 Project Structure
 Each sketch is self‑contained and documented individually, but conceptually grouped by difficulty and topic.
+```
+.
 ├── Fundamentals
 ├── Interaction & Motion
 ├── Systems & Abstraction
@@ -38,7 +40,7 @@ Each sketch is self‑contained and documented individually, but conceptually gr
 ├── 3D Worlds & Navigation
 ├── Projection & Installation Tools
 └── Capstone Systems
-
+```
 
 ### 📘 Conceptual Progression
 
