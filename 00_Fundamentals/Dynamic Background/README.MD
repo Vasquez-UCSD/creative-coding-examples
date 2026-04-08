@@ -1,4 +1,4 @@
-Dynamic Background — Processing (Python Mode)
+Dynamic Background — Processing (Python Mode) 
 Difficulty Level 1
 
 ![Python](https://img.shields.io/badge/Processing-Python%20Mode-blue)
@@ -13,7 +13,7 @@ This sketch introduces foundational animation and interaction concepts in creati
 
 🖼 Screenshot
 
-  assets/DBSS.png
+  assets/dbss.png
 
 Description:
 - The background color changes continuously
@@ -40,17 +40,20 @@ Installation
 📂 Project Structure
 ```
 .
-├── Dynamic_Background_Diff_1.py
+├── Dynamic_Background.py
 ├── README.md
-└── assets
-    └── screenshot.png
+├──Dynamic_Background/
+│	├──Dynamic_Background.pyde
+│	└──Dynamic_Background.properties
+└── assets/
+    └── dbss.png
 ```
 
 🧠 Code Breakdown
 ```python
 def draw():
     # Background in draw "clears" the screen every frame
-    background(mouse_x / 2, 100, 200)
+    background(mouseX / 2, 100, 200)
 ```
 
 Key Concepts
