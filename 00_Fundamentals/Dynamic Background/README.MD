@@ -1,7 +1,7 @@
 Dynamic Background — Processing (Python Mode)
 Difficulty Level 1
 
-https://img.shields.io/badge/Processing-Python%20Mode-blue
+![Python(https://img.shields.io/badge/Processing-Python%20Mode-blue)
 https://img.shields.io/badge/Interaction-Mouse%20Input-purple
 https://img.shields.io/badge/Status-Complete-brightgreen
 https://img.shields.io/badge/Type-Dynamic%20Sketch-orange
@@ -13,7 +13,7 @@ This sketch introduces foundational animation and interaction concepts in creati
 
 🖼 Screenshot
 
-  assets/screenshot.png
+  assets/DBSS.png
 
 Description:
 
@@ -45,11 +45,16 @@ Move your mouse horizontally across the canvas to see the interaction
 
 
 📂 Project Structure
-Python.├── Dynamic_Background.py├── README.md└── assets    └── screenshot.png``Show more lines
+.
+├── Dynamic_Background_Diff_1.py
+├── README.md
+└── assets
+    └── screenshot.png
 
 🧠 Code Breakdown
-Pythondef draw():    # Background in draw "clears" the screen every frame    background(mouse_x / 2, 100, 200)``Show more lines
-Key Concepts
+def draw():
+    # Background in draw "clears" the screen every frame
+    background(mouse_x / 2, 100, 200)
 
 
 draw()
