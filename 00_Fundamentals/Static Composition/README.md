@@ -16,9 +16,10 @@ This project is intended as an introductory exercise in:
 - Visual balance
 - The setup() function in Processing
 
-
 🖼 Screenshot
-  assets/scss.png
+
+![Alt Text](assets/scss.png)
+
 
 Description:
 - 400 × 400 pixel canvas
@@ -78,10 +79,10 @@ Sets a light gray background.
 
 - rect(0, 100, 400, 200) 
 Draws a rectangle across the center of the canvas using:
-- x position
-- y position
-- width
-- height
+  - x position
+  - y position
+  - width
+  - height
 
 
 🎯 Learning Objectives
@@ -97,5 +98,7 @@ Draws a rectangle across the center of the canvas using:
 - Animate the rectangle using draw()
 - Turn this into a generative composition
 
+
 👤 Author / Context 
+
 Created as part of an introductory creative coding or digital art assignment, focusing on foundational Processing concepts.
