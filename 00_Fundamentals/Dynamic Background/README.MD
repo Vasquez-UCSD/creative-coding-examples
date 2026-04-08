@@ -16,32 +16,28 @@ This sketch introduces foundational animation and interaction concepts in creati
   assets/DBSS.png
 
 Description:
-
-The background color changes continuously
-The red color channel responds to the horizontal position of the mouse
-Moving the mouse left to right alters the background’s tint
+- The background color changes continuously
+- The red color channel responds to the horizontal position of the mouse
+- Moving the mouse left to right alters the background’s tint
 
 
 🛠 Requirements
-
-Processing (latest version recommended)
-Python Mode enabled in Processing
+- Processing (latest version recommended)
+- Python Mode enabled in Processing
 
 Installation
-
-Download Processing:
+*1 Download Processing:
 👉 https://processing.org/download
-Open Processing
-Switch to Python Mode using the mode selector
+*2 Open Processing
+*3 Switch to Python Mode using the mode selector
 
 
 ▶️ How to Run
-
-Open Processing
-Set mode to Python
-Open Dynamic_Background.py
-Click Run ▶
-Move your mouse horizontally across the canvas to see the interaction
+*1 Open Processing
+*2 Set mode to Python
+*3 Open Dynamic_Background.py
+*4 Click Run ▶
+*5 Move your mouse horizontally across the canvas to see the interaction
 
 
 📂 Project Structure
@@ -60,38 +56,38 @@ def draw():
     background(mouse_x / 2, 100, 200)
 ```
 
-draw()
+Key Concepts
+- draw()
 Runs continuously (approximately 60 frames per second).
 
 
-background()
+- background()
 Clears and redraws the screen each frame.
 
 
-mouse_x / 2
+- mouse_x / 2
 Uses mouse position to control the red color channel, creating real‑time interaction.
 
 
-Fixed green and blue values (100, 200)
+- Fixed green and blue values (100, 200)
 Ensure smooth, readable color variation.
 
 
 
 🎯 Learning Objectives
 
-Understand the difference between setup() and draw()
-Use mouse input for interactivity
-Control color dynamically
-Learn how real‑time rendering works in Processing
+- Understand the difference between setup() and draw()
+- Use mouse input for interactivity
+- Control color dynamically
+- Learn how real‑time rendering works in Processing
 
 
 ✨ Ideas for Extension
-
-Map color to mouseY
-Animate gradients or patterns
-Add shapes on top of the dynamic background
-Smooth transitions with map() or lerp()
-Combine with setup() to define window size and frame rate
+- Map color to mouseY
+- Animate gradients or patterns
+- Add shapes on top of the dynamic background
+- Smooth transitions with map() or lerp()
+- Combine with setup() to define window size and frame rate
 
 
 👤 Author / Context
