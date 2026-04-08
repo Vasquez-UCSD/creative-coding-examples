@@ -20,7 +20,6 @@ Description:
 - The red color channel responds to the horizontal position of the mouse
 - Moving the mouse left to right alters the background’s tint
 
-
 🛠 Requirements
 - Processing (latest version recommended)
 - Python Mode enabled in Processing
@@ -31,14 +30,12 @@ Installation
 2. Open Processing
 3. Switch to Python Mode using the mode selector
 
-
 ▶️ How to Run
 1. Open Processing
 2. Set mode to Python
 3. Open Dynamic_Background.py
 4. Click Run ▶
 5. Move your mouse horizontally across the canvas to see the interaction
-
 
 📂 Project Structure
 ```
@@ -60,27 +57,20 @@ Key Concepts
 - draw()
 Runs continuously (approximately 60 frames per second).
 
-
 - background()
 Clears and redraws the screen each frame.
-
 
 - mouse_x / 2
 Uses mouse position to control the red color channel, creating real‑time interaction.
 
-
 - Fixed green and blue values (100, 200)
 Ensure smooth, readable color variation.
 
-
-
 🎯 Learning Objectives
-
 - Understand the difference between setup() and draw()
 - Use mouse input for interactivity
 - Control color dynamically
 - Learn how real‑time rendering works in Processing
-
 
 ✨ Ideas for Extension
 - Map color to mouseY
