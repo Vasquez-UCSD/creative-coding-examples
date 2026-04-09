@@ -36,7 +36,7 @@ This site shows progression from:
 
 ## 📁 Course Structure
 
-### 00 — Fundamentals [View Folder](../00_Fundamentals/)
+### 00 - Fundamentals [View Folder](main/00_Fundamentals/)
 > Learning how the screen works
 
 - Shapes
@@ -46,7 +46,7 @@ This site shows progression from:
 
 ---
 
-### 01 — Interaction & Motion
+### 01 - Interaction & Motion [View Folder](main/01_Interaction_and_Motion/)
 > Making visuals respond and move
 
 - Mouse interaction
@@ -56,7 +56,7 @@ This site shows progression from:
 
 ---
 
-### 02 — Repetition & Randomness
+### 02 - Repetition & Randomness [View Folder](main/02_Repetition_and_Randomness/)
 > Patterns and variation
 
 - For loops
@@ -65,7 +65,7 @@ This site shows progression from:
 
 ---
 
-### 03 — Noise, Trigonometry & Recursion
+### 03 - Noise, Trigonometry & Recursion [View Folder](main/03_Noise_Trigonometry_and_Recursion/)
 > Natural motion and organic growth
 
 - Perlin noise
@@ -74,7 +74,7 @@ This site shows progression from:
 
 ---
 
-### 04 — Abstraction & Systems
+### 04 - Abstraction & Systems
 > Writing scalable code
 
 - Custom functions
@@ -84,7 +84,7 @@ This site shows progression from:
 
 ---
 
-### 05 — Image, Pixel & Data Systems
+### 05 - Image, Pixel & Data Systems
 > Treating media as data
 
 - Image sampling
@@ -93,7 +93,7 @@ This site shows progression from:
 
 ---
 
-### 06 — Agents & Behavior
+### 06 - Agents & Behavior
 > Systems with intention
 
 - Autonomous agents
@@ -102,7 +102,7 @@ This site shows progression from:
 
 ---
 
-### 07 — 3D Worlds & Navigation
+### 07 - 3D Worlds & Navigation
 > Building environments
 
 - Procedural terrain
@@ -111,7 +111,7 @@ This site shows progression from:
 
 ---
 
-### 08 — Projection & Installation Tools
+### 08 - Projection & Installation Tools
 > Designing tools, not just sketches
 
 - Keystone correction
@@ -120,7 +120,7 @@ This site shows progression from:
 
 ---
 
-### 09 — Audio & Sensor‑Driven Systems
+### 09 - Audio & Sensor‑Driven Systems
 > Responsive environments
 
 - Sound‑driven form
@@ -129,9 +129,9 @@ This site shows progression from:
 
 ---
 
-## 🌿 Capstone Concept
+## 🌿 Project Concept
 
-The final projects focus on **living systems** — code that adapts to its environment.
+The projects focus on **living systems** — code that adapts to its environment.
 
 These projects combine:
 - Sound
