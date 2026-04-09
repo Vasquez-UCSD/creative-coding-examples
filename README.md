@@ -44,8 +44,7 @@ Each sketch is self‑contained and documented individually, but conceptually gr
 
 ### 📘 Conceptual Progression
 
-#### :one: ️Foundations: Form, Composition, and Repetition  
-[View Folder](00_Fundamentals/)
+#### :one: ️Foundations: Form, Composition, and Repetition - [View Folder](00_Fundamentals/)  
 Early sketches establish basic visual language and structure:
 - Static compositions
 - Shape placement and contrast
@@ -55,8 +54,7 @@ Early sketches establish basic visual language and structure:
 Key concepts: coordinate systems, repetition, visual balance
 
 
-#### :two: Interaction & State  
-[View Folder](01_Interaction_and_Motion/)
+#### :two: Interaction & State - [View Folder](01_Interaction_and_Motion/)  
 User input and real‑time change are introduced:
 - Mouse‑driven visuals
 - Conditional logic
@@ -66,8 +64,7 @@ User input and real‑time change are introduced:
 Key concepts: interaction, setup() vs draw(), program state
 
 
-#### :three: Motion, Noise & Time  
-[View Folder](02_Repetition_and_Randomness/)
+#### :three: Motion, Noise & Time - [View Folder](02_Repetition_and_Randomness/)  
 Movement becomes smoother and more organic:
 - Linear motion and boundaries
 - Perlin noise for natural variation
@@ -77,8 +74,7 @@ Movement becomes smoother and more organic:
 Key concepts: noise, sine/cosine, smooth animation
 
 
-#### :four: Abstraction & Systems Thinking  
-[View Folder](03_Noise_Trigonometry_and_Recursion/)
+#### :four: Abstraction & Systems Thinking - [View Folder](03_Noise_Trigonometry_and_Recursion/)  
 Code begins to scale:
 - Custom functions
 - Nested loops
@@ -88,8 +84,7 @@ Code begins to scale:
 Key concepts: abstraction, modularity, code reuse
 
 
-#### :five: Objects, Particles & Physics  
-[View Folder](04_Abstraction_and_Systems/)
+#### :five: Objects, Particles & Physics - [View Folder](04_Abstraction_and_Systems/)  
 Behavior becomes object‑based:
 - Classes and lists
 - Particle systems
@@ -99,8 +94,7 @@ Behavior becomes object‑based:
 Key concepts: object‑oriented programming, physics modeling
 
 
-#### :six: Data, Images & Pixels  
-[View Folder](05_Image_Pixel_and_Data_Systems/)
+#### :six: Data, Images & Pixels - [View Folder](05_Image_Pixel_and_Data_Systems/)  
 The screen is treated as data:
 - Image sampling
 - Pixel array manipulation
@@ -109,8 +103,7 @@ The screen is treated as data:
 Key concepts: low‑level graphics, data‑driven visuals
 
 
-#### :seven: Recursion & Emergence  
-[View Folder](06_Agents_and_Behavior/)
+#### :seven: Recursion & Emergence - [View Folder](06_Agents_and_Behavior/)  
 Complex form emerges from simple rules:
 - Recursive fractals
 - Self‑similar systems
@@ -119,8 +112,7 @@ Complex form emerges from simple rules:
 Key concepts: recursion, fractals, emergent complexity
 
 
-#### :eight: 3D Worlds & Navigation  
-[View Folder](07_3D_Worlds_and_Navigation/)
+#### :eight: 3D Worlds & Navigation - [View Folder](07_3D_Worlds_and_Navigation/)  
 Flat sketches become spatial environments:
 - Procedural 3D terrain
 - Camera systems and follow cams
@@ -130,8 +122,7 @@ Flat sketches become spatial environments:
 Key concepts: 3D space, camera logic, world consistency
 
 
-#### :nine: Tools for Projection & Installation  
-[View Folder](08_Projection_and_Installation_Tools/)
+#### :nine: Tools for Projection & Installation - [View Folder](08_Projection_and_Installation_Tools/)  
 The focus shifts from artworks to utilities:
 - Manual keystone calibration
 - Architectural masking systems
@@ -140,8 +131,7 @@ The focus shifts from artworks to utilities:
 Key concepts: tool‑building, installation workflows
 
 
-#### :keycap_ten: Project Systems: Responsive Environments  
-[View Folder](09_Audio_and_Sensor_Driven_Systems/)
+#### :keycap_ten: Project Systems: Responsive Environments - [View Folder](09_Audio_and_Sensor_Driven_Systems/)  
 The final works integrate multiple systems simultaneously:
 - Acoustic Brutalism: sound‑driven geometry
 - Dynamic Terrain Navigation: agents interacting with procedural worlds
