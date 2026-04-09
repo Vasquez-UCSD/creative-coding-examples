@@ -36,7 +36,7 @@ This site shows progression from:
 
 ## 📁 Course Structure
 
-### 00 - Fundamentals [View Folder](00_Fundamentals/)
+### 00 - Fundamentals [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/00_Fundamentals)
 > Learning how the screen works
 
 - Shapes
@@ -46,7 +46,7 @@ This site shows progression from:
 
 ---
 
-### 01 - Interaction & Motion [View Folder](01_Interaction_and_Motion/)
+### 01 - Interaction & Motion [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/01_Interaction_and_Motion)
 > Making visuals respond and move
 
 - Mouse interaction
@@ -56,7 +56,7 @@ This site shows progression from:
 
 ---
 
-### 02 - Repetition & Randomness [View Folder](02_Repetition_and_Randomness/)
+### 02 - Repetition & Randomness [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/02_Repetition_and_Randomness)
 > Patterns and variation
 
 - For loops
@@ -65,7 +65,7 @@ This site shows progression from:
 
 ---
 
-### 03 - Noise, Trigonometry & Recursion [View Folder](03_Noise_Trigonometry_and_Recursion/)
+### 03 - Noise, Trigonometry & Recursion [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/03_Noise_Trigonometry_and_Recursion)
 > Natural motion and organic growth
 
 - Perlin noise
@@ -74,7 +74,7 @@ This site shows progression from:
 
 ---
 
-### 04 - Abstraction & Systems [View Folder](04_Abstraction_and_Systems/)
+### 04 - Abstraction & Systems [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/04_Abstraction_and_Systems)
 > Writing scalable code
 
 - Custom functions
@@ -84,7 +84,7 @@ This site shows progression from:
 
 ---
 
-### 05 - Image, Pixel & Data Systems [View Folder](05_Image_Pixel_and_Data_Systems/)
+### 05 - Image, Pixel & Data Systems [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/05_Image_Pixel_and_Data_Systems)
 > Treating media as data
 
 - Image sampling
@@ -93,7 +93,7 @@ This site shows progression from:
 
 ---
 
-### 06 - Agents & Behavior [View Folder](06_Agents_and_Behavior/)
+### 06 - Agents & Behavior [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/06_Agents_and_Behavior/Autonomous%20Agents)
 > Systems with intention
 
 - Autonomous agents
@@ -102,7 +102,7 @@ This site shows progression from:
 
 ---
 
-### 07 - 3D Worlds & Navigation [View Folder](07_3D_Worlds_and_Navigation/)
+### 07 - 3D Worlds & Navigation [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/07_3D_Worlds_and_Navigation)
 > Building environments
 
 - Procedural terrain
@@ -111,7 +111,7 @@ This site shows progression from:
 
 ---
 
-### 08 - Projection & Installation Tools [View Folder](08_Projection_and_Installation_Tools/)
+### 08 - Projection & Installation Tools [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/08_Projection_and_Installation_Tools)
 > Designing tools, not just sketches
 
 - Keystone correction
@@ -120,7 +120,7 @@ This site shows progression from:
 
 ---
 
-### 09 - Audio & Sensor‑Driven Systems [View Folder](09_Audio_and_Sensor_Driven_Systems/)
+### 09 - Audio & Sensor‑Driven Systems [View Folder](https://github.com/Vasquez-UCSD/creative-coding-examples/tree/main/09_Audio_and_Sensor_Driven_Systems)
 > Responsive environments
 
 - Sound‑driven form
@@ -172,5 +172,5 @@ If something feels confusing:
 ---
 
 *Created by Travis Vasquez*
-*Technical Designer*
-*Creative Coding & Digital Art*
+*Instructor, UCSD*  
+*Technical Designer/ Creative Coding / Visual Art*
