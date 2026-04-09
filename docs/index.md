@@ -36,7 +36,7 @@ This site shows progression from:
 
 ## 📁 Course Structure
 
-### 00 — Fundamentals
+### 00 — Fundamentals [View Folder](../00_Fundamentals/)
 > Learning how the screen works
 
 - Shapes
