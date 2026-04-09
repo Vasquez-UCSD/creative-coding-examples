@@ -171,6 +171,6 @@ If something feels confusing:
 
 ---
 
-*Created by Travis Vasquez*
+*Created by Travis Vasquez*  
 *Instructor, UCSD*  
 *Technical Designer/ Creative Coding / Visual Art*
