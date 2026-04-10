@@ -117,9 +117,9 @@ def draw():
     fill(30)
     with push_matrix():
         # Processing draws cylinders from the center
-        translate(0, -400, 0)
+        translate(0, -1000, 0)
         # Custom cylinder helper
-        draw_column(100, 800)
+        draw_column(100, 2000)
 
     # Update and Draw Ivy
     for ivy in ivy_list:
