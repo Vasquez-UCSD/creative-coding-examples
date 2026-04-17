@@ -12,7 +12,7 @@ Creates a class to handle the loading and centering of the 3D object.
 
 
 #### Updating Scripts
-The 3D Viewport: main.py   
+- The 3D Viewport: main.py   
 We need to change the size() call to use the P3D renderer and add variables to control the object's rotation.
 
 
