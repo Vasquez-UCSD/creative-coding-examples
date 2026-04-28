@@ -22,15 +22,31 @@ class Star:
         self.chaos_shape = random_choice(["CIRCLE", "SQUARE", "TRIANGLE", "STAR_POLY", "HEXAGON"])
 
     def apply_swipe(self, hx, hy, hvx, hvy):
-        """Calculates distance to hand and adds a velocity kick based on hand movement."""
         d = dist(self.x, self.y, hx, hy)
-        # Interaction radius: 180 pixels
         if d < 180:
-            # Strength falls off as distance increases
             strength = remap(min(d, 180), 0, 180, 2.0, 0)
-            # Apply a fraction of the hand's movement to the star's velocity
             self.vx += hvx * strength * 0.08
             self.vy += hvy * strength * 0.08
+
+    def apply_model_collision(self, mx, my, radius):
+        """Reflects stars off a central circular hitbox."""
+        d = dist(self.x, self.y, mx, my)
+        if d < radius and d > 0:
+            # 1. Calculate the normal vector (from model center to star)
+            nx = (self.x - mx) / d
+            ny = (self.y - my) / d
+            
+            # 2. Push star out of the hitbox to prevent sticking
+            self.x = mx + nx * (radius + 2)
+            self.y = my + ny * (radius + 2)
+            
+            # 3. Reflect the velocity vector: V_new = V_old - 2(V_old . N) * N
+            dot = self.vx * nx + self.vy * ny
+            self.vx = (self.vx - 2 * dot * nx) * 0.7  # 0.7 adds a bit of energy loss
+            self.vy = (self.vy - 2 * dot * ny) * 0.7
+            
+            # 4. Trigger a visual 'impact' pulse
+            self.accel = 1.8
 
     def update(self, energy):
         normalized_energy = energy * 0.3
@@ -38,16 +54,12 @@ class Star:
             self.accel = remap(min(normalized_energy, 10), 1, 10, 1.1, 3.0)
             self.current_size = self.base_size + (normalized_energy * 5)
         
-        # Physics update
         self.x += self.vx * self.accel
         self.y += self.vy * self.accel
-        
-        # Friction: slowly return to normal speeds
-        self.vx *= 0.96
-        self.vy *= 0.96
+        self.vx *= 0.98
+        self.vy *= 0.98
         self.accel *= 0.95 
-        
-        self.life -= 2.5 
+        self.life -= 1.5 
         
         if self.life <= 0 or self.x < 0 or self.x > self.canvas_w or self.y < 0 or self.y > self.canvas_h:
             self.reset()
@@ -56,9 +68,7 @@ class Star:
         canvas.begin_shape()
         angle = TWO_PI / n
         for i in range(n):
-            px = x + cos(i * angle) * r
-            py = y + sin(i * angle) * r
-            canvas.vertex(px, py)
+            canvas.vertex(x + cos(i * angle) * r, y + sin(i * angle) * r)
         canvas.end_shape(CLOSE)
 
     def draw_star_poly(self, canvas, x, y, r, n):
