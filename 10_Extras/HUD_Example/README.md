@@ -37,4 +37,3 @@ The project follows a clean, class-based approach to UI rendering and interactio
 
 ---
 *Note: This project serves as a foundational example of creating custom interactive UI elements from scratch without external widget libraries.*
-"""
