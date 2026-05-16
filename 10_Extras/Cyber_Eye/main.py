@@ -5,7 +5,7 @@ import behavior_engine
 import vision_engine
 import ui_engine
 
-def setup():
+def settings():
     size(1200, 800)
     
 def draw():

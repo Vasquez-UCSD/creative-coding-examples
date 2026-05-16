@@ -1,3 +1,6 @@
+import os
+import sounddevice as sd
+import soundfile as sf
 # ------------------------
 # GLOBAL
 # ------------------------
@@ -72,10 +75,17 @@ class Button:
 
     def click(self):
         global health
+        global slider_value
 
         # play sound if available
-        if click_sound:
-            click_sound.play()
+        if click_sound is not None:
+            original_data, fs = click_sound
+            
+            volume_multiplier = slider_value / 100.0
+            
+            adjusted_data = original_data * volume_multiplier
+            
+            sd.play(adjusted_data, fs)
 
         if self.action == "heal":
             health += 10
@@ -197,8 +207,16 @@ def setup():
 
     # optional sound
     try:
-        click_sound = load_sound("click.wav")
-    except:
+        # Force Python to look in the exact directory where this script is saved
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        audio_path = os.path.join(script_dir, "click.wav")
+        
+        # Read file data and sample rate, store as a tuple
+        data, fs = sf.read(audio_path)
+        click_sound = (data, fs)
+        print("Audio file successfully loaded!")
+    except Exception as e:
+        print(f"Failed to load audio: {e}")
         click_sound = None
 
     # build UI
@@ -271,7 +289,7 @@ def draw_hotkeys():
     fill(255)
 
     text_align(LEFT, TOP)
-    text_size(16)
+    text_size(18)
 
     text(
         "HOTKEYS:\n"
