@@ -1,6 +1,7 @@
 import os
 import sounddevice as sd
 import soundfile as sf
+
 # ------------------------
 # GLOBAL
 # ------------------------
@@ -195,23 +196,29 @@ class HealthBar:
 
 
 # ------------------------
+# SETTINGS
+# ------------------------
+def settings():
+    size(900, 650)
+    smooth()  # Fixed: Moved here so py5 can configure anti-aliasing before the window initializes
+
+
+# ------------------------
 # SETUP
 # ------------------------
 def setup():
     global click_sound
 
-    size(900, 650)
-    smooth()
+    window_resizable(True)
+    window_title("Resizable HUD Panel")
 
     text_size(14)
 
     # optional sound
     try:
-        # Force Python to look in the exact directory where this script is saved
         script_dir = os.path.dirname(os.path.abspath(__file__))
         audio_path = os.path.join(script_dir, "click.wav")
         
-        # Read file data and sample rate, store as a tuple
         data, fs = sf.read(audio_path)
         click_sound = (data, fs)
         print("Audio file successfully loaded!")
@@ -234,7 +241,12 @@ def setup():
 # DRAW
 # ------------------------
 def draw():
+    global panel_x, panel_y
     background(18)
+
+    # Prevent panel from getting lost off-screen when maximized or resized
+    panel_x = max(0, min(panel_x, width - panel_w))
+    panel_y = max(0, min(panel_y, height - panel_h))
 
     draw_panel()
     draw_ui()
@@ -291,6 +303,7 @@ def draw_hotkeys():
     text_align(LEFT, TOP)
     text_size(18)
 
+    # Anchored dynamically to 'width' to move when maximized
     text(
         "HOTKEYS:\n"
         "W = Heal\n"
@@ -298,7 +311,7 @@ def draw_hotkeys():
         "R = Reset\n"
         "Drag Header = Move UI\n"
         "Drag Slider = Change Volume",
-        420,
+        width - 450,
         80
     )
 
@@ -382,4 +395,4 @@ def key_pressed():
 # START
 # ------------------------
 if __name__ == "__main__":
-    run_sketch()
+    py5.run_sketch()
